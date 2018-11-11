@@ -246,7 +246,7 @@ border: 2px solid black;
 {
   display: flex;
   flex-direction: 'row';
-  width: 45%;
+  width: 60%;
   justify-content: space-around;
   margin-top: 20px;
 }
@@ -337,4 +337,15 @@ padding-left:30px;
 .tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
+}
+
+.output
+{
+  padding: 8px;
+  margin-top: 5px;
+  }
+
+.pdfOutput
+{
+  background-color: white;
 }

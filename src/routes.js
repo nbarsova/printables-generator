@@ -30,6 +30,12 @@ function RoutesConfig($stateProvider, $urlRouterProvider) {
     url: '/secretcode',
     templateUrl: 'src/secretcode/templates/secretcode.html',
     controller: 'SecretCodeGeneratorController as secretCodeController'
+  })
+
+  .state('monster', {
+    url: '/monster',
+    templateUrl: 'src/monster/templates/monster.html',
+    controller: 'MonsterController as monsterController'
   });
 }
 

@@ -37,6 +37,11 @@
   <script src="src/secretcode/secretcode.generator.js"></script>
   <script src="src/secretcode/secretcode.controller.js"></script>
 
+  <!-- Lock the monster -->
+  <script src="src/monster/monster.renderer.js"></script>
+  <script src="src/monster/monster.generator.js"></script>
+  <script src="src/monster/monster.controller.js"></script>
+
   <title>RECHNENRUCKSACK</title>
 
   <!-- Global Site Tag (gtag.js) - Google Analytics -->
@@ -58,7 +63,8 @@
      </select></div></header>
   <div id="navigator">
     <a ui-sref="treasureMap" class="navItem">{{ 'treasureMap' | translate }}</a>
-    <a ui-sref="secretCode" class="navItem">{{ 'secretCode' | translate }}</a></div>
+    <a ui-sref="secretCode" class="navItem">{{ 'secretCode' | translate }}</a>
+    <a ui-sref="monster" class="navItem">{{ 'monster' | translate }}</a></div>
   <ui-view></ui-view>
 
   <footer><h6>(c) Rechnenrucksack.com, 2017</h6> <br>
