@@ -231,9 +231,8 @@ function ArithmeticService($q) {
         }
     }
 
-    service.buildUniqueEquation = function (number, operation, complexity)
-    {
-      // console.log("Building equation for step "+number + ", operation "+operation+ " ,complexity "+complexity);
+    service.buildUniqueEquationObject = function (number, operation, complexity) {
+      console.log("Building equation for number "+number + ", operation "+operation+ " ,complexity "+complexity);
 
       var equation;
       var numberExists = false;
@@ -300,9 +299,13 @@ function ArithmeticService($q) {
         }
       }
        //console.log(generatedEquations);
-        return equation.print();
+       return equation;
+    }
 
-  }
+    service.buildUniqueEquation = function (number, operation, complexity)
+    {
+      return service.buildUniqueEquationObject(number, operation, complexity).print();
+    }
 
   service.createAdditionEquations = function (number, complexity)
   {

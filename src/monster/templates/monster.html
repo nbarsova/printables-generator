@@ -2,13 +2,35 @@
   <div id="input" ><div id="description"><h5>Lock the monster</h5><br>
     <p>Fill in the missing parts of equations to lock the monster in his cage</p>
   </div>
-  <div id="settings">
+  <div id="complexitySettings">
     <h6>Settings</h6><br>
-    <p><input type="radio">Option 1</input></p>
-    <p><input type="radio">Option 2</input></p>
-    <p><input type="radio">Option 3</input></p>
+      <div class="paddedView"><h4>{{'availableComplexity'| translate}}</h4>
+        <div class="paddedView font16">
+          <input type="radio" ng-model="monsterController.complexity" value="10">0-10</div>
+        <div class="paddedView font16">
+          <input type="radio"  ng-model="monsterController.complexity" value="25">0-25</div>
+        <div class="paddedView font16">
+          <input type="radio" ng-model="monsterController.complexity" value="100">0-100</div>
+      </div>
+    <div><h4>{{'operations' | translate}}</h4>
+      <div id="operationsChoice">
+          <input type="checkbox" id="addsub" ng-change="MonsterController.alterOperations()"><p>+, -</p>
+          <input type="checkbox" id="multdiv" ng-change="MonsterController.alterOperations()"><p>*, %</p>
+        </div>
+      </div>
+      <div><h4>How many monsters?</h4>
+      <div class="paddedView font16">
+        <input type="radio" ng-model="monsterController.monstersNum" value="2">2
+      </div>
+      <div class="paddedView font16">
+        <input type="radio" ng-model="monsterController.monstersNum" value="4">4
+      </div>
+      <div class="paddedView font16">
+        <input type="radio" ng-model="monsterController.monstersNum" value="6">6
+      </div>
+    </div>
   </div>
-  <div id="generateButton"><button>GENERATE</button></div>
+  <div id="generateButton"><button ng-click="monsterController.createEquations()">{{'reset' | translate}}</button></div>
 </div>
 
 <div id="printSettings"><h5>Print settings</h5><br>
