@@ -91,7 +91,8 @@ angular.module('RechnenRucksack')
       equationsToSolve: "Solve the equations and find the results in the key \nto read each letter of the secret message!",
       codeKey: "Letter code key",
       secretCodeTitle: "Solve the secret code!",
-      initialSecretMessage: "SHE SELLS SEASHELLS BY THE SEASHORE"
+      initialSecretMessage: "SHE SELLS SEASHELLS BY THE SEASHORE",
+      monster: "Lock the monster"
   })
   .translations('de', {
     rechnenrucksack: "RECHNENRUCKSACK",
@@ -152,7 +153,8 @@ angular.module('RechnenRucksack')
     equationsToSolve: "Löse die Aufgaben und finde die Ergebnisse im Schlüssel, \num die Nachricht zu raten!",
     codeKey: "Schlüssel",
       secretCodeTitle: "Löse den geheimen Code!",
-      initialSecretMessage: "Fischers Fritz fischt frische Fische"
+      initialSecretMessage: "Fischers Fritz fischt frische Fische",
+        monster: "Monsterjagd"
 }
 )
 .translations('ru', {
@@ -214,7 +216,8 @@ secretMessageTooLong: "Секретное сообщение не должно �
 equationsToSolve: "Чтобы прочитать секретное сообщение, реши примеры и подставь нужную букву по ключу",
 codeKey: "Ключ",
 secretCodeTitle: "Разгадай секретный шифр!",
-initialSecretMessage: "шла саша по шоссе и сосала сушку"
+initialSecretMessage: "шла саша по шоссе и сосала сушку",
+  monster: "Запри монстра"
 });
 
   $translateProvider.preferredLanguage('en');

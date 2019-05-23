@@ -244,7 +244,7 @@ drawingService.createTeacherPage = function (targetCoordinates,
         mapStep = 20;
       }
 
-      context.strokeStyle = '#888888';
+      context.strokeStyle = 'black';
       context.lineWidth = 1;
 
       for (var ik=startX; ik<=480+startX; ik+=mapStep)
