@@ -2,14 +2,77 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af588687-ed0d-4f85-b75e-e888e7f09162" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/mystyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mystyles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/monster/monster.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/monster/monster.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/monster/monster.generator.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/monster/monster.generator.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/monster/templates/monster.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/monster/templates/monster.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rechnenrucksack.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/rechnenrucksack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/secretcode/templates/secretcode.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/secretcode/templates/secretcode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/treasure/map.renderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/treasure/map.renderer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SecretMessage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/TreasureHunt.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MIT.LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpecRunner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/Courgette/Courgette-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Courgette/Courgette-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/Courgette/OFL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Courgette/OFL.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/Neucha/Neucha.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Neucha/Neucha.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/Neucha/OFL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/Neucha/OFL.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/PT_Sans/OFL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/PT_Sans/OFL.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/PT_Sans/PT_Sans-Web-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/PT_Sans/PT_Sans-Web-Bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/PT_Sans/PT_Sans-Web-BoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/PT_Sans/PT_Sans-Web-BoldItalic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/PT_Sans/PT_Sans-Web-Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/PT_Sans/PT_Sans-Web-Italic.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fonts/PT_Sans/PT_Sans-Web-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/fonts/PT_Sans/PT_Sans-Web-Regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mystyles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/compass.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/compass.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/globe.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/globe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/map-border-horizontal.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/map-border-horizontal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/map-border-vertical.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/map-border-vertical.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/mapP.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/mapP.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/monster.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/secretP.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/secretP.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/stones.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/img/stones.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rucksack.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rucksack.xcf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/arithmeticSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/drawingSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commons/arithmetic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commons/basetempplate.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commons/print.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commons/render.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/commons/strings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/angular-mocks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/angular-ui-router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/angular.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/bower-angular-translate-2.15.2/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/bower-angular-translate-2.15.2/angular-translate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/bower-angular-translate-2.15.2/angular-translate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/bower-angular-translate-2.15.2/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/jasmine-2.7.0/boot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/jasmine-2.7.0/console.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/jasmine-2.7.0/jasmine-html.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/jasmine-2.7.0/jasmine.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/jasmine-2.7.0/jasmine.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/jasmine-2.7.0/jasmine_favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/pdfmake.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/vfs_fonts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/monster/monster.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/monster/monster.generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/monster/monster.renderer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LockMonster.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/monster/templates/monster.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rechnenrucksack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secretcode/secretcode.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secretcode/secretcode.generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secretcode/secretcode.renderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/secretcode/templates/secretcode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/treasure/map.controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/treasure/map.generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/treasure/map.renderer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/treasure/templates/treasuremap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/to.do" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,53 +84,63 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/monster/templates/monster.html">
+        <entry file="file://$PROJECT_DIR$/src/App.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-92">
-              <caret line="56" column="100" selection-start-line="56" selection-start-column="100" selection-end-line="56" selection-end-column="100" />
+            <state relative-caret-position="169">
+              <caret line="50" column="50" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/treasure/templates/treasuremap.html">
+        <entry file="file://$PROJECT_DIR$/src/App.module.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+            <state relative-caret-position="271">
+              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/monster/monster.controller.js">
+        <entry file="file://$PROJECT_DIR$/src/components/TreasureHunt.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+            <state relative-caret-position="66">
+              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/treasure/map.controller.js">
+        <entry file="file://$PROJECT_DIR$/src/components/SecretMessage.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="202" column="37" selection-start-line="202" selection-start-column="25" selection-end-line="202" selection-end-column="37" />
+            <state relative-caret-position="66">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/commons/arithmetic.js">
+        <entry file="file://$PROJECT_DIR$/src/components/LockMonster.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5126">
-              <caret line="233" column="82" selection-start-line="233" selection-start-column="82" selection-end-line="233" selection-end-column="82" />
+            <state>
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -81,6 +154,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lock-the-monster" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -93,6 +171,17 @@
         <option value="$PROJECT_DIR$/src/monster/monster.generator.js" />
         <option value="$PROJECT_DIR$/src/monster/templates/monster.html" />
         <option value="$PROJECT_DIR$/src/monster/monster.controller.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/src/components/TreasureHunt.ts" />
+        <option value="$PROJECT_DIR$/src/components/SecretMessage.ts" />
+        <option value="$PROJECT_DIR$/src/components/LockMonster.ts" />
+        <option value="$PROJECT_DIR$/src/components/LockMonster.tsx" />
+        <option value="$PROJECT_DIR$/src/components/TreasureHunt.tsx" />
+        <option value="$PROJECT_DIR$/src/components/SecretMessage.tsx" />
+        <option value="$PROJECT_DIR$/src/App.jsx" />
+        <option value="$PROJECT_DIR$/src/App.module.css" />
       </list>
     </option>
   </component>
@@ -108,7 +197,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -125,26 +213,41 @@
               <item name="printables-generator" type="b2602c69:ProjectViewProjectNode" />
               <item name="printables-generator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="treasure" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="printables-generator" type="b2602c69:ProjectViewProjectNode" />
               <item name="printables-generator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="treasure" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="C:\Users\Natasha\development\printables-generator\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Natasha\development\printables-generator\src" />
+      <recent name="C:\Users\Natasha\development\printables-generator\src\fonts" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -158,6 +261,26 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2">
+        <option name="TypeScript.Before.Run" enabled="true" FAIL_ON_ERROR="true" CONFIG_PATH="$PROJECT_DIR$/tsconfig.json" />
+      </method>
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2">
+        <option name="TypeScript.Before.Run" enabled="true" FAIL_ON_ERROR="true" CONFIG_PATH="$PROJECT_DIR$/tsconfig.json" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -170,29 +293,32 @@
       <updated>1552578359471</updated>
       <workItem from="1552578362454" duration="3782000" />
       <workItem from="1553614781137" duration="3401000" />
+      <workItem from="1575733964424" duration="2180000" />
+      <workItem from="1576048949294" duration="5025000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7183000" />
+    <option name="totallyTimeSpent" value="14388000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20461309" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12723215" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32405892" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -203,91 +329,94 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/mystyles.css">
+    <entry file="file://$PROJECT_DIR$/css/mystyles.css" />
+    <entry file="file://$PROJECT_DIR$/src/secretcode/templates/secretcode.html" />
+    <entry file="file://$PROJECT_DIR$/src/routes.js" />
+    <entry file="file://$PROJECT_DIR$/src/main.js" />
+    <entry file="file://$PROJECT_DIR$/src/monster/monster.renderer.js" />
+    <entry file="file://$PROJECT_DIR$/src/rechnenrucksack.js" />
+    <entry file="file://$PROJECT_DIR$/src/monster/monster.generator.js" />
+    <entry file="file://$PROJECT_DIR$/src/monster/templates/monster.html" />
+    <entry file="file://$PROJECT_DIR$/src/monster/monster.controller.js" />
+    <entry file="file://$PROJECT_DIR$/src/treasure/map.controller.js" />
+    <entry file="file://$PROJECT_DIR$/src/commons/arithmetic.js" />
+    <entry file="file://$PROJECT_DIR$/src/treasure/templates/treasuremap.html" />
+    <entry file="file://$PROJECT_DIR$/home.html" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5170">
-          <caret line="235" column="24" selection-start-line="235" selection-start-column="24" selection-end-line="235" selection-end-column="24" />
-        </state>
+        <state relative-caret-position="-237" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/secretcode/templates/secretcode.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="40" column="18" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="40" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-496" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/monster/monster.renderer.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/src/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/commons/arithmetic.js">
+    <entry file="file://$PROJECT_DIR$/src/fonts/Courgette/OFL.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/stones.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/globe.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/secretP.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/monsterP.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/mapP.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/img/compass.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TreasureHunt.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5126">
-          <caret line="233" column="82" selection-start-line="233" selection-start-column="82" selection-end-line="233" selection-end-column="82" />
+        <state relative-caret-position="66">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/rechnenrucksack.js">
+    <entry file="file://$PROJECT_DIR$/src/components/SecretMessage.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="156" column="29" selection-start-line="156" selection-start-column="29" selection-end-line="156" selection-end-column="29" />
+        <state relative-caret-position="66">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/monster/monster.generator.js">
+    <entry file="file://$PROJECT_DIR$/src/components/LockMonster.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="19" column="78" lean-forward="true" selection-start-line="19" selection-start-column="78" selection-end-line="19" selection-end-column="78" />
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/monster/monster.controller.js">
+    <entry file="file://$PROJECT_DIR$/src/App.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+        <state relative-caret-position="169">
+          <caret line="50" column="50" selection-start-line="50" selection-start-column="50" selection-end-line="50" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/monster/templates/monster.html">
+    <entry file="file://$PROJECT_DIR$/src/App.module.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-92">
-          <caret line="56" column="100" selection-start-line="56" selection-start-column="100" selection-end-line="56" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/treasure/map.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="202" column="37" selection-start-line="202" selection-start-column="25" selection-end-line="202" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/treasure/templates/treasuremap.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="271">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
         </state>
       </provider>
     </entry>
