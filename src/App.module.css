@@ -32,7 +32,18 @@ header {
     text-transform: uppercase;
     cursor: pointer;
     letter-spacing: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.languages {
+    font-size: 3vh;
+    display: flex;
+    flex-direction: row;
+    letter-spacing: 2px;
+    }
 
 .puzzles {
     display:flex;
