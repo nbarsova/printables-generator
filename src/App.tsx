@@ -4,8 +4,9 @@ import {SecretMessage} from "./components/SecretMessage";
 import {LockMonster} from "./components/LockMonster";
 import {TreasureHunt} from "./components/TreasureHunt";
 import styles from "./App.module.css";
-import {FormattedMessage, IntlProvider, useIntl} from "react-intl";
+import {FormattedMessage, IntlProvider} from "react-intl";
 import {deMessagesJSON, enMessagesJson, ruMessagesJSON} from "./messages/messages";
+import {Header} from "./Header";
 
 export function App() {
 
@@ -75,40 +76,23 @@ export function App() {
 
   let [locale, setCurrentLocale] = useState(defaultLocale);
 
+  let headerCallback = (lang: string) => {
+    setCurrentLocale(lang);
+  };
+
   return (
       <IntlProvider locale={locale}
                     messages={messages[locale]}>
 
         <div className={styles.app}>
-          <header onClick={() => setCurrentPuzzle(null)}>
-            <FormattedMessage id="rechnenrucksack" defaultMessage="Vroum"/>
-            <div className={styles.languages}>
-              <div style={{
-                fontWeight: locale === "en" ? "bold" : "normal",
-                marginRight: "10px"
-              }}
-                   onClick={() => setCurrentLocale("en")}>en
-              </div>
-              <div style={{
-                fontWeight: locale === "de" ? "bold" : "normal",
-                marginRight: "10px"
-              }}
-                   onClick={() => setCurrentLocale("de")}>de
-              </div>
-              <div style={{
-                fontWeight: locale === "ru" ? "bold" : "normal",
-                marginRight: "10px"
-              }}
-                   onClick={() => setCurrentLocale("ru")}>ru
-              </div>
-            </div>
 
-          </header>
+          <Header headerCallback={(language) => setCurrentLocale(language) }
+                  resetPuzzle={() => setCurrentPuzzle(null)}
+                  locale={defaultLocale}/>
           <div className={currentPuzzle ? styles.puzzleBar : styles.puzzles}>
             {puzzles.map(renderPuzzle)}
           </div>
           {currentPuzzle && currentPuzzle.component}
-          {locale}
         </div>
       </IntlProvider>
   );

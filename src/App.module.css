@@ -45,6 +45,16 @@ header {
     letter-spacing: 2px;
     }
 
+.language {
+    margin-right: 10px;
+    font-weight: normal;
+}
+
+.selectedLanguage {
+    composes: language;
+    font-weight: bold;
+}
+
 .puzzles {
     display:flex;
     flex-direction: row;
