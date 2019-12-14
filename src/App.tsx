@@ -1,8 +1,8 @@
 import React, {useState} from 'react';
 import './App.module.css';
-import {SecretMessage} from "./components/SecretMessage";
-import {LockMonster} from "./components/LockMonster";
-import {TreasureHunt} from "./components/TreasureHunt";
+import {SecretMessage} from "./components/secret/SecretMessage";
+import {LockMonster} from "./components/monster/LockMonster";
+import {TreasureHunt} from "./components/treasure/TreasureHunt";
 import styles from "./App.module.css";
 import {FormattedMessage, IntlProvider} from "react-intl";
 import {deMessagesJSON, enMessagesJson, ruMessagesJSON} from "./messages/messages";
